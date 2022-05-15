@@ -36,5 +36,4 @@ class Line {
   }
 }
 
-const len = new Line(5, 10);
-console.log(len);
+export default Line;
