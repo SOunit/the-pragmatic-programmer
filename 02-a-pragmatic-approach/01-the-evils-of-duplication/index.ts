@@ -25,6 +25,8 @@ class Line {
     return this.end;
   }
 
+  // to follow DRY
+  // to avoid process every time
   getLength() {
     if (this.changed) {
       this.length = this.end - this.start;
